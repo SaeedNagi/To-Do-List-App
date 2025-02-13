@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(159, 161, 161);
+}
+.list-app{
+    margin-left: 30vw;
+    margin-top: 25vh;
+    padding: 20px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+    background: linear-gradient(#434343, #cfcfcf, #fdcf03);
+    width: 30vw;
+}
+.list-app h1{
+    padding: 10px;
+    text-align: center;
+}
+.list-app input{
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    width: 22vw;
+}
+.list-app #tasklist{
+    margin: 20px;
+    padding: 5px;
+    font-weight: 700;
+    font-size: larger;
+}
+.list-app #btn{
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+    font: 1em sans-serif;
+    font-weight: 600;
+    background-color: blue;
+    color: #cfcfcf;
+}
+#btn:hover{
+    background-color: #00fff2;
+    color: #030303;
+}
+.list-app #Clearbtn{
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+    font: 1em sans-serif;
+    font-weight: 600;
+    width: 25vw;
+    background-color: blue;
+    color: #cfcfcf;
+}
+#Clearbtn:hover{
+    background-color: #00fff2;
+    color: #030303;
+}
+@media screen and (max-width: 600px) {
+    .list-app{
+        width: 20vw;
+    } 
+    .list-app input{
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+    width: 10vw;
+    }
+    .list-app #btn{
+        padding: 5px;
+        border-radius: 10px;
+        border-style: none;
+        height: 25px;
+        font-weight: 200;
+    }
+    .list-app #Clearbtn{
+        width: 15vw;
+    }
+}
